@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.blessthismessplease.com/our-story/";
+   let authorPhoto = "https://www.blessthismessplease.com/wp-content/uploads/2018/11/Melissa-G-008-bw.jpg";
+   let authorName = "Melissa";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ['chicken', 'taco seasoning', 'salt', 'pepper', 'lime'];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Easy Chicken Tacos</h1>
+            <p>An easy chicken taco recipe</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.blessthismessplease.com/wp-content/uploads/2019/09/chicken-taco-5-of-5.jpg" alt="" className="imageUpdates"/>
    );
 }
 
