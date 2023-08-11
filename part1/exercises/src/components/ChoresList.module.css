@@ -1,7 +1,10 @@
 .choresText {
-   color: black;
+   color: blue;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 25px;
 }
 
 .choresHeading {
    color: black;
+   text-decoration: underline;
 }
