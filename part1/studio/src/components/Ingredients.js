@@ -2,7 +2,7 @@ import styles from './Ingredients.module.css';
 
 const RecipeIngredients = () => {
     let ingredients = ['3 pounds ground beef chuck', '5 garlic cloves',
-     'Salt', 'Juice of 1 lime', '3 tablespoons pure ancho chile powder'];
+     'Salt', 'Juice of 1 lime', ' pure ancho chile powder'];
     return (
         <div>
       <h3>Recipe Ingredients</h3>
